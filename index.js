@@ -8,7 +8,7 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-const tongueTwister= (s1+s2+s3+s4+s5)
+const tongueTwister= (s1+ ' ' + s2 + ' ' + s3+ ' ' + s4 + s5)
 
 // Print out the concatenated string
 console.log(tongueTwister);
@@ -37,10 +37,10 @@ console.log(result)
 const billTotal = 84;
 
 // Calculate the tip (15% of the bill total)
-const tip = (15/100) * billTotal;
+const tipAmount = billTotal * 0.15;
 
 // Print out the tipAmount
-console.log (tip)
+console.log (tipAmount)
 
 
 
